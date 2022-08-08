@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/test', function () {
+    return view('testpage');
+})->middleware(['auth'])->name('test');
+
+// remove abouve this line
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -20,5 +26,14 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
+
+
+Route::get('/serverchat', function () {
+    return view('livechat');
+})->middleware(['auth'])->name('livechat');
+
+Route::get('/players', function () {
+    return view('players');
+})->middleware(['auth'])->name('players');
 
 require __DIR__.'/auth.php';
