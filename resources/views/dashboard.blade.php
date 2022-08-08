@@ -25,7 +25,7 @@ $stats = $stats[0];
 
 {{$user->username}} <span class="text-info text-bold" title="Admin-Account"></span>                      </h3>
                       <h5 class="widget-user-desc">
-{{$user->lastlogin}}</h5>
+{{$user->uuid}}</h5>
                     </div>
                     <div class="widget-user-image">
                       <img style="border: none!important;"class="" src="https://minotar.net/armor/bust/{{$user->username}}/190.png" alt="User Avatar">
@@ -108,45 +108,7 @@ $stats = $stats[0];
                   </div>
                 </div>
 
-            <div class="content-header">
-              <div class="row mb-2">
-                <div class="col-sm-6">
-                  <h1 class="m-0 text-dark">Your Reports</h1>
-                </div>
-              </div>
-            </div>
-
-            <div class="d-flex flex-wrap w-100">
-              <div class="card card-outline card-danger w-100">
-                <div class="table-responsive">
-                  <table class="table table-hover">
-                    <thead>
-                      <tr>
-                        <th scope="col">#-ID</th>
-                        <th scope="col">Reported</th>
-                        <th scope="col">Reason</th>
-                        <th scope="col">Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                                                  <tr>
-                              <th scope="row">3</th>
-                              <td>
-CrazySeppe</td>
-                              <td>hacking</td>
-                              <td>
-                                                                    <span class="font-weight-bold">
-                                      <i class="fas fa-caret-up text-success"></i>
-                                      <span class="text-muted">Claimed</span>
-                                    </span>
-                                                                  </td>
-                            </tr>
-                                                </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-
+            
           </div><!-- /.container-fluid -->
         </div>
                 </div>

@@ -1,6 +1,8 @@
-<?php $onlineuuid = file_get_contents('https://api.mojang.com/users/profiles/minecraft/mbdevmatthew');
-      $onlineuuid = json_decode($onlineuuid);
-      $onlineuuid = $onlineuuid->id;
-  ?>
+<?php
+$user = Auth::user();
+$reported =DB::table('authme')->where('uuid', '=' , $user->uuid)->get();
+$reported = $reported->username;
 
-  {{$onlineuuid}}
+echo $reported
+
+?>
