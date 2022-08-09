@@ -19,3 +19,8 @@ Thank you for considering contributing to the StaffcoreLaravel project! please d
 
 If you discover a security vulnerability within this project, please send an message matthewb987#4046 on discord. All security vulnerabilities will be promptly addressed.
 
+## Requirement
+Your minecraft server must be running the following: &nbsp
+- Staffcore  Developed by @locodev and @ViaEder
+- Authme
+
