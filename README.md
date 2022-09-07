@@ -21,6 +21,6 @@ If you discover a security vulnerability within this project, please send an mes
 
 ## Requirement
 Your minecraft server must be running the following: &nbsp
-- Staffcore  Developed by @locodev and @ViaEder
+- Staffcore  Developed by @lacodev and @ViaEnder
 - Authme
 
